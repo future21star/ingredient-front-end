@@ -101,9 +101,7 @@
     "babel-preset-env": "1.6.0",
     "babel-preset-react": "6.24.1",
     "babel-preset-react-hmre": "1.1.1",
-    "babel-preset-stage-1": "6.24.1"
-  },
-  "devDependencies": {
+    "babel-preset-stage-1": "6.24.1",
     "autoprefixer": "7.1.4",
     "browser-sync": "2.18.12",
     "chalk": "2.0.1",
@@ -146,6 +144,8 @@
     "webpack-dev-middleware": "1.11.0",
     "webpack-hot-middleware": "2.18.2",
     "webpack-md5-hash": "0.0.5"
+  },
+  "devDependencies": {
   },
   "keywords": [],
   "repository": {
