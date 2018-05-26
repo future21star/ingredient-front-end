@@ -5,7 +5,7 @@ var expressSession  = require('express-session');
 
 var app             = express();
 var server          = require('http').Server(app);
-
+var port = process.env.PORT || 3000;
 app.use(cookieParser());
 app.use(expressSession({
     'secret': "SECRET",
@@ -25,4 +25,4 @@ app.get('/*', function(req, res) {
   res.sendFile(__dirname + '/dist/index.html')
 });
 
-server.listen(3000);
+server.listen(port);
