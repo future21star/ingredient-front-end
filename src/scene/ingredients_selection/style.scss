@@ -1,0 +1,87 @@
+.ingredients-selection {
+	margin: 20px 100px;
+	.header {
+		text-align: center;
+	}
+	.IngredientsSelectionProgressBar {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		.avatar-header{
+			img {
+				width:50px;
+			}
+		}
+		.rc-steps-item-content {
+			line-height: 40px;
+		}
+		.rc-steps-item-process {
+		    .step-name {
+		        color: #d56fff;
+		    }
+		}
+	}
+	.step-container {
+		padding: 20px;
+		height: 400px;
+		width: 75%;
+		margin: auto;
+		.sub-header {
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		.user-profile-step {
+			.form-control {
+				margin: 10px 0;
+			}
+		}
+		.ingredients-step {
+		}
+		.ingredients-selection-step {
+			.formulation-selector,
+			.ingredient-selector {
+				.dropdown {
+					width: 100%;
+					button {
+						width: 100%;
+					}
+					ul.dropdown-menu {
+						width: 100%;
+						max-height: 100px;
+    					overflow-y: scroll;
+					}
+				}
+				margin-bottom: 20px;
+			}
+			.add-ingredient {
+			    padding-right: 16px;			
+			}
+			.selected-ingredients {
+				max-height: 200px;
+				overflow-y: scroll;
+				.ingredient-item {
+					margin: 5px 0;
+					.ingredient-name {
+						text-align: center;
+					}
+				}
+			}
+			input {
+				max-width: 100px;
+			}			
+		}
+		.step-panel {
+			text-align: center;
+			margin-top: 20px;
+			.final-button {
+				float: right;
+			}
+			.prev-button {
+				float: left;
+			}
+			.next-button {
+				float: right;
+			}
+		}
+	}	
+}
+
