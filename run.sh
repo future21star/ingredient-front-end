@@ -1,2 +1,3 @@
-node tools/build.js
-node tools/distServer.js
+npm install babel-cli
+babel-node tools/build.js
+babel-node tools/distServer.js
