@@ -35,7 +35,7 @@ class UserProfileStep extends React.Component {
 				<div className="col-sm-12 sub-content">
 					<div className="row">							
 						<div className="col-sm-6 form-group">
-							<label for="first_name">First Name</label>
+							<label htmlFor="first_name">First Name</label>
 							<input 
 								type="text"
 								placeholder="First Name"
@@ -44,7 +44,7 @@ class UserProfileStep extends React.Component {
 								className="form-control" />
  						</div>
 						<div className="col-sm-6 form-group">
-							<label for="last_name">Last Name</label>
+							<label htmlFor="last_name">Last Name</label>
 							<input 
 								type="text"
 								placeholder="Last Name"
@@ -53,7 +53,7 @@ class UserProfileStep extends React.Component {
 								className="form-control" />
 						</div>
 						<div className="col-sm-6 form-group">
-							<label for="address">Address</label>
+							<label htmlFor="address">Address</label>
 							<input 
 								type="text"
 								placeholder="Address"
@@ -62,7 +62,7 @@ class UserProfileStep extends React.Component {
 								className="form-control" />
 						</div>
 						<div className="col-sm-6 form-group">			
-							<label for="birthday">Birthday</label>
+							<label htmlFor="birthday">Birthday</label>
 							<DatePicker
 						        selected={this.state.birthday}
 						        onChange={(date) => this.updateUserProfile({ birthday: date })}
